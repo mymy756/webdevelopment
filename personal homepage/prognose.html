@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mykola Konovalenko – Persoonlijke homepage</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $(".accordion").accordion();
+    });
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Mykola Konovalenko</h1>
+  <nav aria-label="Hoofdnavigatie">
+    <ul>
+      <li><a href="#persoonlijk">Persoonlijke informatie</a></li>
+      <li><a href="#foto">Foto</a></li>
+      <li><a href="#hobbys">Mijn hobby's</a></li>
+      <li><a href="#interesses">Interesses</a></li>
+      <li><a href="#prognose">Prognose</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="persoonlijk">
+    <h2 id="titel-persoonlijk">Persoonlijke informatie</h2>
+    <div class="accordion">
+      <h3>Volledige naam</h3>
+      <div>
+        <p>
+          Mykola Konovalenko
+        </p>
+      </div>
+      <h3>Adres</h3>
+      <div>
+        <p>
+          Gent 9000, straat pushkina, huisnr 52
+        </p>
+      </div>
+      <h3>telefoonnummer</h3>
+      <div>
+        <p>
+          08005353535
+        </p>
+      </div>
+      <h3>e-mailadres</h3>
+      <div>
+        <p>
+          mykola.konovalenko@hotdog.com
+        </p>
+        <p>
+          mykola.konovalenko@hotcat.com
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="foto">
+    <h2 id="titel-foto">Foto</h2>
+    <figure>
+      <img src="fotos/foto.jpeg" alt="amyfoto" height="250">
+      <figcaption>Mykola Konovalenko</figcaption>
+    </figure>
+  </section>
+
+  <section id="hobbys">
+    <div class ="accordion">
+    <h3>Volleybal</h3>
+    <div>
+      <p>
+        Ik speel al 6 jaar volleybal, momenteel speel ik bij decospan volley team Menen
+      </p>
+      <a href="https://jeugd.volleymenen.be/?oid=29799&pid=105998">
+        Volleybal
+      </a>
+    </div>
+    <h3>Gamen</h3>
+    <div>
+      <p>
+        In mijn vrije tijd speel ik games op een xbox.
+      </p>
+      <a href="https://www.xbox.com/en-US/play/user/mymyknv">
+        Xbox profiel
+      </a>
+    </div>
+    <h3>Top-tier hobby</h3>
+    <div>
+      <p>
+        En mijn laatste hobby is uitgaan met vrienden naar een cafeetje
+      </p>
+      <p>Hieronder vindt u de lijst met mijn favoriete cafeetjes</p>
+      <p>
+      <ul>
+        <li><a href="https://www.barolokortrijk.be">Barolo Kortrijk</a></li>
+        <li><a href="https://www.bardesamis.be/en/ghent">Bar des amis Gent</a></li>
+        <li><a href="https://visit.gent.be/nl/eten-drinken/barrazza">Barrazza Gent</a></li>
+        <li><a href="https://deomgekeerdewereld.be">De omgekeerde wereld Gent</a></li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <section id="interesses">
+    <h2 id="titel-interesses">Interesses</h2>
+    <div class="accordion">
+      <h3>Favoriete zangers</h3>
+      <div>
+        <p>
+          Een tijdje geleden ontdekte ik een zangeres die Lauryn Kovacs heet, en nu is ze mijn favoriete zangeres
+        </p>
+        <a href="https://open.spotify.com/artist/312rRK1ajyuXCvS4nCpIdr">
+          Spotify
+        </a>
+        <p>
+          <img src="fotos/images.jpeg" alt= "foto" height="200"/>
+        </p>
+      </div>
+      <h3>Films</h3>
+      <div>
+        <p>
+          Ik hou van Harry Potter
+        </p>
+        <a href="https://www.harrypotter.com">
+          Harry Potter
+        </a>
+        <p>
+          <img src="fotos/harry.jpg" alt= "foto" height="200"/>
+        </p>
+      </div>
+      <h3>Series</h3>
+      <div>
+        <p>
+          Mijn favoriete serie is "Svaty"
+        </p>
+        <p>
+          <a href="https://www.imdb.com/title/tt1820225/">
+            Imdb
+          </a>
+          <br><img src="fotos/svaty.jpg" alt="foto" height="200"/>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="prognose">
+    <h2 id="titel-prognose">Prognose</h2>
+    <table border="1">
+      <caption>Prognose van de punten per student en per vak</caption>
+      <thead>
+      <tr>
+        <th scope="col">Naam</th>
+        <th scope="col">Vak</th>
+        <th scope="col">Punten</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Mykola</th>
+        <td>Web Development</td>
+        <td>12/20</td>
+      </tr>
+      <tr>
+        <td>Computer Netwerken</td>
+        <td>14/20</td>
+      </tr>
+      <tr>
+        <td>Systems Management</td>
+        <td>11/20</td>
+      </tr>
+      </tbody>
+      <tbody>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Lucas</th>
+        <td>Web Development</td>
+        <td>18/20</td>
+      </tr>
+      <tr>
+        <td>Computer Netwerken</td>
+        <td>14/20</td>
+      </tr>
+      <tr>
+        <td>Systems Management</td>
+        <td>19/20</td>
+      </tr>
+      </tbody>
+      <tbody>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Milan</th>
+        <td>Web Development</td>
+        <td>15/20</td>
+      </tr>
+      <tr>
+        <td>Computer Netwerken</td>
+        <td>12/20</td>
+      </tr>
+      <tr>
+        <td>Systems Management</td>
+        <td>17/20</td>
+      </tr>
+      </tbody>
+      <tbody>
+      <tr>
+        <th scope="rowgroup" rowspan="3">Ryan</th>
+        <td>Web Development</td>
+        <td>11/20</td>
+      </tr>
+      <tr>
+        <td>Computer Netwerken</td>
+        <td>17/20</td>
+      </tr>
+      <tr>
+        <td>Systems Management</td>
+        <td>15/20</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Mykola Konovalenko</p>
+</footer>
+
+</body>
+</html>
