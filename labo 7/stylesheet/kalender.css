@@ -1,0 +1,40 @@
+table.kalender {
+    border: 2px solid #232546;
+    border-collapse: collapse;
+    font-family: "Times New Roman", serif;
+    font-size: 24px;
+}
+
+.kalender caption {
+    background-color: rgb(170, 170, 200);
+    border: 2px solid #232546;
+    border-bottom: none;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.kalender th {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+    padding: 2px 3px;
+}
+
+.kalender td {
+    border: 1px dotted #232546;
+    padding: 2px 3px;
+    width: 1.6em;
+}
+
+.kalender td.feestdag {
+    background-color: rgb(250, 120, 120);
+}
+
+.kalender td:first-child,
+.kalender td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.kalender td.andere-maand {
+    background-color: rgb(200, 200, 200);
+    color: rgb(170, 170, 170);
+}

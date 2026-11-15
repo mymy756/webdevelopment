@@ -1,0 +1,90 @@
+body {
+    max-width: 900px;
+    margin: 0 auto 15px;
+    padding: 0 20px;
+    line-height: 1.6;
+    background-color: #F5EFE6;
+    color: #2C241E;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    border-bottom: 3px solid #2C241E;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid #2C241E;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+header h1 {
+    border-bottom: none;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+.foto200px{
+    height: 200px;
+    width: auto;
+    border: 2px solid #2C241E;
+    border-radius: 6px;
+}
+
+h1, h2 {
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #8B4513;
+}
+
+a:hover {
+    color: #2C241E;
+}
+
+.ui-accordion {
+    margin-bottom: 20px;
+}
+
+.ui-accordion .ui-accordion-header{
+    border: 2px solid #2C241E;
+    border-radius: 6px;
+    background-color: #F5EFE6;
+    color: #2C241E;
+}
+
+.ui-accordion .ui-accordion-content{
+    background-color: #F5EFE6;
+    color: #6B5D52;
+    border: 2px solid #2C241E;
+}
+
+.ui-accordion .ui-accordion-header:hover{
+    background-color: #E8DFD1;
+    color: #6B5D52;
+    border-color: #2C241E;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon{
+    background-image: url("../../../labo 7/fotos/accordion.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+}
+
+#accordion2 ul li {
+    margin: 20px 0;
+    padding: 10px 0;
+}

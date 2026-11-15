@@ -1,0 +1,29 @@
+h1 {
+    background-image: url("../fotos/header.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    padding-bottom: 60px;
+}
+
+nav > a {
+    color: lawngreen;
+}
+nav {
+    background-color: #2B2D42;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+article {
+    padding-top: 40px;
+    background-color: silver;
+    margin: 10px;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+}
