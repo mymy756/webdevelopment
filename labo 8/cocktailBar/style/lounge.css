@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#content {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+#elixirs {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: 1px solid #a7cece;
+    text-align: center;
+
+    background-image: url(../images/cocktail.gif);
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-top: 50px;
+}
+
+#elixirs h1 {
+    color: #000000;
+}
+
+.lemonBreeze {
+    color: #e6a800;
+}
+
+.chaiChiller {
+    color: #8b4513;
+}
+
+.blackBrainBrew {
+    color: dimgray;
+}
+
+#elixirs img {
+    max-width: 100%;
+}
+
+#elixirs a:hover {
+    background-color: brown;
+    color: #ffffff;
+}
+
+.color {
+    margin: 30px;
+    padding: 20px;
+    background-color: #a7cece;
+    border: 3px dotted #ffffff;
+}
+
+.color p {
+    margin: 0;
+    color: #444444;
+    font-style: italic;
+}
+
+#guarantee a {
+    color: #444444;
+    font-weight: bold;
+}
+
+#guarantee {
+    background-image: url(../images/background.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30px;
+    padding-left: 40px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    font-size: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
