@@ -1,0 +1,22 @@
+article {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.25em;
+}
+
+article:nth-of-type(odd) img {
+    float: left;
+    margin-right: 10px;
+}
+
+article:nth-of-type(even) img {
+    float: right;
+    margin-left: 10px;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}

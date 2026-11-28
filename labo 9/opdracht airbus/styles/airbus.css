@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    min-width: 950px;
+    margin: 0 auto;
+}
+
+.top {
+    position: relative;
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+}
+
+.top-title {
+    margin: 0;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top-subtitle {
+    margin: 0.5em 0 0 0;
+    font-size: 240%;
+    font-weight: bold;
+}
+
+.top-image {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 1;
+}
+
+.news {
+    float: right;
+    box-sizing: border-box;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+
+.news-title {
+    margin: 10px 0 0 0;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+}
+
+.news-text {
+    margin: 0;
+    padding: 10px;
+    color: #666666;
+    font-size: 90%;
+}
+
+.main {
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    background-color: white;
+}
+
+.logo img {
+    display: block;
+    width: 80px;
+}
+
+.introduction {
+    overflow: hidden;
+    padding: 20px 30px 20px 0;
+    background-color: white;
+    color: black;
+}
+
+.introduction p {
+    margin: 0;
+    font-size: 75%;
+    text-align: justify;
+}
+
+.introduction .highlight {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gallery {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 20px;
+    padding: 20px;
+    background-color: #999999;
+}
+
+.photo {
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px dashed #999999;
+}
+
+.photo img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.bottom {
+    clear: both;
+    display: flex;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.bottom-block {
+    margin-left: 120px;
+}
+
+.bottom a {
+    color: white;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+.copyright {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 80%;
+}
